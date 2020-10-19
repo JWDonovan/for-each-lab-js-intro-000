@@ -1,4 +1,4 @@
-var jsdom = require("jsdom").jsdom; 
+var jsdom = require("jsdom").jsdom;
 
 describe('index', function() {
   describe('iterativeLog(array)', function() {
