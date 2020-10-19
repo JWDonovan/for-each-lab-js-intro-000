@@ -1,3 +1,5 @@
+var jsdom = require("jsdom").jsdom; 
+
 describe('index', function() {
   describe('iterativeLog(array)', function() {
     it('logs each element with the format `${index}: ${element}`', function() {
