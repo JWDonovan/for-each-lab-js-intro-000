@@ -25,6 +25,7 @@ describe('index', function() {
       // this assertion is checked before forEach()
       // has been called. Totally unclear why that's
       // the case, since forEach *should* be blocking.
+      this.enableTimeouts(false)
       setTimeout(() => {
         expect(forEach).toHaveBeenCalled()
       }, 1)
